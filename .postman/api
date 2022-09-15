@@ -1,0 +1,16 @@
+id = 9a5231c6-da28-45e8-b3b5-5eac98e35b3a
+
+[relations]
+
+[relations.collections]
+rootDirectory = postman/collections
+
+[relations.collections.metaData]
+
+[relations.apiDefinition]
+rootDirectory = postman/schemas
+files[] = {"path":"OAS 3.0/components/user_components.yaml","metaData":{}}
+files[] = {"path":"OAS 3.0/index/user_api.yaml","metaData":{}}
+
+[relations.apiDefinition.metaData]
+type = openapi:3
